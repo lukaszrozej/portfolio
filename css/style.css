@@ -5,6 +5,7 @@
 }
 
 body {
+  /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Raleway', sans-serif;
   color: #2d3c49;
 }
@@ -19,7 +20,8 @@ header {
   border-bottom: 3px solid #7d97ad;
   display: flex;
   justify-content: space-between;
-  padding: 1em 0;
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
 }
 
 .logo {
@@ -30,6 +32,11 @@ header {
 .header-text {
   text-align: right;
   text-transform: uppercase;
+}
+
+.header-text h1,
+.header-text h2 {
+  font-weight: 100;
 }
 
 img {
