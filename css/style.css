@@ -39,6 +39,11 @@ header {
   font-weight: 100;
 }
 
+
+section {
+	width: 100%;
+}
+
 img {
-  width: 200px;
+  width: 100%;
 }
