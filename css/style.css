@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header,
+main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+	border-bottom: 3px solid #7d97ad;
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 0;
+}
+
+.logo {
+	width: 10%;
+	height: 10%;
+}
+
+.header-text {
+	text-align: right;
+}
+
+img {
+	width: 200px;
+}
