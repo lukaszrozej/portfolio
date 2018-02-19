@@ -1,31 +1,37 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #2d3c49;
 }
 
 header,
 main {
-	width: 90%;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 header {
-	border-bottom: 3px solid #7d97ad;
-	display: flex;
-	justify-content: space-between;
-	padding: 1em 0;
+  border-bottom: 3px solid #7d97ad;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
 }
 
 .logo {
-	width: 10%;
-	height: 10%;
+  width: 10%;
+  height: 10%;
 }
 
 .header-text {
-	text-align: right;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 img {
-	width: 200px;
+  width: 200px;
 }
