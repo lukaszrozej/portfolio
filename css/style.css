@@ -16,12 +16,16 @@ main {
   margin: 0 auto;
 }
 
+header,
+.main-image {
+	margin-bottom: 0.5em;
+}
+
 header {
   border-bottom: 3px solid #7d97ad;
   display: flex;
   justify-content: space-between;
   padding: 0.5em 0;
-  margin-bottom: 0.5em;
 }
 
 .logo {
@@ -40,10 +44,27 @@ header {
 }
 
 
+.featured-work h2 {
+	color: #7d97ad;
+}
+
 section {
 	width: 100%;
 }
 
+.project {
+	margin: 0.4em 0;
+}
+
 img {
   width: 100%;
+}
+
+a {
+	display: block;
+  color: #2d3c49;
+}
+
+a, h3 {
+	text-align: center;
 }
