@@ -25,6 +25,7 @@ header {
   border-bottom: 3px solid #7d97ad;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   padding: 0.5em 0;
 }
 
