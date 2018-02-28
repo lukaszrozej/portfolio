@@ -86,6 +86,12 @@ h3 {
   text-align: center;
 }
 
+footer {
+  margin: 1em;
+	display: flex;
+  justify-content: center;
+}
+
 .contact-icon {
 	width: 32px;
 }
