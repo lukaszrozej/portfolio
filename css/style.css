@@ -17,8 +17,8 @@ main {
 }
 
 header,
-.main-image {
-	margin-bottom: 0.5em;
+.about-me {
+  margin-bottom: 0.5em;
 }
 
 header {
@@ -46,23 +46,23 @@ header {
 
 
 .featured-work {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .featured-work h2 {
-	color: #7d97ad;
-	width: 100%;
+  color: #7d97ad;
+  width: 100%;
 }
 
 section {
-	width: 100%;
+  width: 100%;
 }
 
 .project {
-	margin: 0.4em 0;
+  margin: 0.4em 0;
 }
 
 img {
@@ -70,22 +70,22 @@ img {
 }
 
 h3 {
-	text-align: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 550px) {
-	.featured-work {
-		display: flex;
-		flex-direction: row;
-	}
+  .featured-work {
+    display: flex;
+    flex-direction: row;
+  }
 
-	.project {
-		width: calc((100% - 20px)/2);
-	}
+  .project {
+    width: calc((100% - 20px)/2);
+  }
 }
 
 @media screen and (min-width: 900px) {
-	.project {
-		width: calc((100% - 40px)/3);
-	}
+  .project {
+    width: calc((100% - 40px)/3);
+  }
 }
