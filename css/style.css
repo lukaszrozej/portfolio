@@ -23,11 +23,16 @@ header,
 }
 
 header {
-  border-bottom: 3px solid #7d97ad;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 0.5em 0;
+}
+
+header,
+.about-me,
+.featured-work {
+  border-bottom: 3px solid #7d97ad;
 }
 
 .logo {
