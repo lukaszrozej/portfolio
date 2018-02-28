@@ -62,6 +62,13 @@ section {
   width: 100%;
 }
 
+p {
+  text-align: justify;
+  width: 90%;
+  margin: 1em auto;
+  text-indent: 1em;
+}
+
 .project {
   margin: 0.4em 0;
 }
